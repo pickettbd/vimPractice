@@ -1,3 +1,13 @@
 These are practice exercises for an introductory Vim lecture.
 
 Please see the `LICENSE' file.
+
+To do this with the class, have them copy everything back to their home
+directories.  This is best accomplished by having them run the `setup' script
+EXACTLY like this:
+
+	python setup
+
+or from their home directories, it would be something like this:
+
+	python /path/to/some/universally/accessible/place/vimPractice/setup

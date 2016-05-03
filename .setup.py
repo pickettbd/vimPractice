@@ -7,7 +7,7 @@ def runCommand(command):
 	os.system(command)
 	sys.stderr.write('.')
 
-runCommand("cp -f ~/.vimrc ~/.vimrc.bk &> /dev/null")
+runCommand("count=''; while [ -e ~/.vimrc.bk${count} ]; do if [ -z $count ]; then count=1; else count=`bc <<< ${count}+1`; fi; done; cp -f ~/.vimrc ~/.vimrc.bk${count} &> /dev/null")
 runCommand("cp -f " + os.path.dirname(os.path.realpath(__file__)) + "/.vimrc ~/.vimrc")
 runCommand("mkdir -p ~/vimPractice")
 runCommand("rm -rf ~/vimPractice/*")
