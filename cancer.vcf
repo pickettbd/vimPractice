@@ -1,0 +1,49 @@
+##fileformat=VCFv4.1
+##fileDate=20120626
+##source=diBayes
+##reference=file:///results/referenceLibrary/tmap-f3/hg19/hg19.fasta
+##contig=<ID=chr1,length=249250621>
+##contig=<ID=chr2,length=243199373>
+##contig=<ID=chr3,length=198022430>
+##contig=<ID=chr4,length=191154276>
+##contig=<ID=chr5,length=180915260>
+##contig=<ID=chr6,length=171115067>
+##contig=<ID=chr7,length=159138663>
+##contig=<ID=chr8,length=146364022>
+##contig=<ID=chr9,length=141213431>
+##contig=<ID=chr10,length=135534747>
+##contig=<ID=chr11,length=135006516>
+##contig=<ID=chr12,length=133851895>
+##contig=<ID=chr13,length=115169878>
+##contig=<ID=chr14,length=107349540>
+##contig=<ID=chr15,length=102531392>
+##contig=<ID=chr16,length=90354753>
+##contig=<ID=chr17,length=81195210>
+##contig=<ID=chr18,length=78077248>
+##contig=<ID=chr19,length=59128983>
+##contig=<ID=chr20,length=63025520>
+##contig=<ID=chr21,length=48129895>
+##contig=<ID=chr22,length=51304566>
+##contig=<ID=chrX,length=155270560>
+##contig=<ID=chrY,length=59373566>
+##contig=<ID=chrM,length=16569>
+##INFO=<ID=HS,Number=0,Type=Flag,Description="Indicate it is at a hot spot">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Float,Description="Genotype Quality">
+##FORMAT=<ID=GL,Number=.,Type=String,Description="Genotype Likelihood, number of values is (#ALT+1)*(#ALT+2)/2">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=FDP,Number=1,Type=Integer,Description="Filtered Read Depth">
+##FORMAT=<ID=AD,Number=.,Type=Integer,Description="Allelic depths for the REF and ALT alleles in the order listed in the ALT field">
+##FORMAT=<ID=APSD,Number=.,Type=Integer,Description="Allelic specific plus strand depths for the REF and ALT alleles in the order listed in the ALT field">
+##FORMAT=<ID=AST,Number=.,Type=Integer,Description="Allelic unique start positions for the REF and ALT alleles in the order listed in the ALT field">
+##FORMAT=<ID=ABQV,Number=.,Type=Integer,Description="Allelic average base qv for the REF and ALT alleles in the order listed  in the ALT field">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Sample
+chr1	115256529	.	T	C	100.0	PASS	.	GT:GQ:GL:DP:FDP:AD:APSD:AST:ABQV	0/1:100.00:-999.00,0.00,-10000.00:1349:1089:1019,62:476,35:18,9:28,30
+chr3	178936093	.	G	T	100.0	PASS	.	GT:GQ:GL:DP:FDP:AD:APSD:AST:ABQV	0/1:100.00:-999.00,0.00,-10000.00:1995:1797:1637,158:860,78:19,10:30,31
+chr3	178952020	.	C	T	100.0	PASS	.	GT:GQ:GL:DP:FDP:AD:APSD:AST:ABQV	0/1:100.00:-10000.00,0.00,-999.00:499:471:215,256:114,114:23,28:31,30
+chr4	1807894	.	G	A	100.0	PASS	.	GT:GQ:GL:DP:FDP:AD:APSD:AST:ABQV	1/1:100.00:-999.00,-999.00,0.00:725:662:2,660:0,374:1,16:31,29
+chr4	55141055	.	A	G	100.0	PASS	.	GT:GQ:GL:DP:FDP:AD:APSD:AST:ABQV	1/1:100.00:-999.00,-999.00,0.00:1578:1075:12,1063:9,433:4,23:29,28
+chr4	55972974	.	T	A	100.0	PASS	.	GT:GQ:GL:DP:FDP:AD:APSD:AST:ABQV	1/1:100.00:-999.00,-999.00,0.00:957:832:2,827:1,426:2,14:26,30
+chr5	112175612	.	C	G	100.0	PASS	.	GT:GQ:GL:DP:FDP:AD:APSD:AST:ABQV	0/1:100.00:-999.00,0.00,-10000.00:282:215:186,29:105,22:26,6:27,31
+chr5	112175634	.	C	G	100.0	PASS	.	GT:GQ:GL:DP:FDP:AD:APSD:AST:ABQV	0/1:100.00:-999.00,0.00,-10000.00:336:143:123,20:101,13:26,3:28,28
+chr7	116339672	.	C	T	100.0	PASS	.	GT:GQ:GL:DP:FDP:AD:APSD:AST:ABQV	0/1:100.00:-10000.00,0.00,-999.00:1483:1328:653,675:360,335:20,20:29,29
