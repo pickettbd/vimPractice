@@ -25,3 +25,4 @@ inoremap <right> <nop>
 
 " Misc.
 set scrolloff=10
+set updatecount=0
